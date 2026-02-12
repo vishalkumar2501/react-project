@@ -1,29 +1,35 @@
-import { UserCard } from "./components/UserCar";
-import { Wrapper } from "./components/wrapper";
+import './App.css';
+import EventToDo from './components/EventToDo';
 
-export default function App() {
-    const users = [
-        {
-            name: "Virat Kohli",
-            role: "Batsman",
-            country: "India",
-        },
-        {
-            name: "Rohit Sharma",
-            role: "Hitter",
-            country: "India",
-        },
-    ];
+function App() {
+  return (
+    <>
+      <EventToDo name="Vishal kumar" />
+      <form onSubmit={(e) => {
+        e.preventDefault();
+        alert('Form submitted');
+      }}>
+        <input type="text" placeholder="Enter something" />
+        <button type="submit">Submit</button>
 
-    return (
-        <div>
-            <h1>Users Dashboard</h1>
+      </form>
+      <ul id ="taskList">
+        <li>
+            <input type="checkbox" id="task1" name="task1" value="Task 1" />
+            <label for="task1"> Task 1</label>
+        </li>
+        <li>
+            <input type="checkbox" id="task2" name="task2" value="Task 2" />
+            <label for="task2"> Task 2</label>
 
-            <Wrapper title="Users List">
-                <UserCard data={users[0]} />
-                <UserCard data={users[1]} />
-             
-            </Wrapper>
-        </div>
-    );
+        </li>
+ 
+
+          
+      </ul>
+
+    </>
+  );
 }
+
+export default App;
