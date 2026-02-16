@@ -1,12 +1,14 @@
 import './App.css'
+import './EventToDo.css'
 import EventToDo from './EventToDo'
+import EventTodo from './EventToDo'
 import Counter from './Counter'
-
 function App() {
+  
+
   return (
     <>
-      {/* <EventToDo /> */}
-      <Counter />
+     <EventToDo />
     </>
   )
 }
