@@ -68,6 +68,7 @@ const App = () => {
 
 
   // ===== CALCULATE TOTALS =====
+  // ===== CALCULATE TOTALS =====
   const totals = sum();
 
 
@@ -125,7 +126,7 @@ const App = () => {
 
         ))}
 
-      </ul>
+      </ul> 
 
     </div>
   );
