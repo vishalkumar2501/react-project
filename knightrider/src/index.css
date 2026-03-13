@@ -10,8 +10,11 @@ html,body{
 }
 /* App Container */
 .app {
+
   padding: 20px;
   font-family: Arial, sans-serif;
+  color: whitesmoke;
+  background-color: #111;
   
 }
 
@@ -24,6 +27,7 @@ html,body{
 
 /* Card Styling */
 .card {
+ height: fit-content;
   border: 1px solid #ee1818;
   padding: 15px;
   width: 200px;
@@ -60,15 +64,20 @@ html,body{
 
 /* Cart Section */
 .cart {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .cart-item {
   margin: 5px 0;
-  color: ;
+  
 }
 
 .total {
-  margin-top: 10px;
+  margin-top: 20px;
   font-weight: bold;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }

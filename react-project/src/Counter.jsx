@@ -15,6 +15,7 @@ function handleDecrement(){
        setCount(count=>count-1);
         console.log(count);
     }
+    
 
     return(
 <>
