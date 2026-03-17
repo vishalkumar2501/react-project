@@ -78,7 +78,7 @@ const App = () => {
 
 export default App;
 
-//-------------------------MSE 1 QUESTION SOLVED -------------------------------------------
+//---------------------------------MSE 1 QUESTION SOLVED -------------------------------------------
 
 import React, { useState } from 'react';
 
