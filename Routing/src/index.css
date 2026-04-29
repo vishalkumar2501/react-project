@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    color: white;
+}
+.nav{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: #2c83daca;
+}
+.nav2{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    gap: 50px;
+    color:white;
+}
+.about{
+    padding: 250px;
+    height: 200vh;
+    color: red;
+   
+
+}
