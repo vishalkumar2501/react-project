@@ -1,6 +1,6 @@
 export const ADD_TODO = 'ADD_TODO';
 export const DELETE_TODO = 'DELETE_TODO';
-export const TOGGLE = 'TOGGLE';
+export const TOGGLE_TODO = 'TOGGLE_TODO';
 
 export const addTodo = (text) => ({
     type: ADD_TODO,
@@ -14,6 +14,6 @@ export const deleteTodo = (id) => ({
 })
 
 export const toggle = (id) => ({
-    type: TOGGLE,
+    type: TOGGLE_TODO,
     payload: id
 })
